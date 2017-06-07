@@ -9,13 +9,13 @@
 var OopHelp=
 {
     /*
-     * @private
+     * @privates
      * A reference to the global scope. We use this rather than window
      * in order to support both browser based and non browser baed 
      * JavaScript interpreters.
      * @type {Object}
      */
-	global: (function(){return this})()
+	global: (function(){return this})() //返回全局对象
     
     /*
      * @private
